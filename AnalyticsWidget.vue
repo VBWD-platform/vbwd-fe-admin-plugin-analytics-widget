@@ -3,7 +3,7 @@
     class="stat-card plugin-widget"
     data-testid="analytics-widget"
   >
-    <h3>Active Sessions</h3>
+    <h3>{{ $t('analytics.activeSessions') }}</h3>
     <div
       v-if="loading"
       class="stat-value"
@@ -18,7 +18,7 @@
       {{ count }}
     </div>
     <div class="stat-label">
-      from plugin
+      {{ $t('analytics.fromPlugin') }}
     </div>
   </div>
 </template>
