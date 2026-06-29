@@ -15,7 +15,7 @@ import zh from './locales/zh.json'
  */
 export const analyticsWidgetPlugin: IPlugin = {
   name: 'analytics-widget',
-  version: '26.6',
+  version: '26.6.1',
   description: 'Displays active sessions count on the dashboard',
 
   _active: false,
