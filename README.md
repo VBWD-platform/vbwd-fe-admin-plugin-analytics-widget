@@ -26,3 +26,11 @@ Registers `AnalyticsWidget.vue` as a dashboard widget via the plugin system.
 cd vbwd-fe-admin
 ./bin/pre-commit-check.sh --unit
 ```
+
+## Documentation
+
+Full platform documentation lives at **[vbwd.cc/docs](https://vbwd.cc/docs)**.
+
+- [Frontend plugins](https://vbwd.cc/docs-frontend-plugins) — how fe-admin / fe-user plugins are built and mounted
+- [Architecture](https://vbwd.cc/docs-architecture) — platform layering and the core-agnosticism rule
+- [Getting started](https://vbwd.cc/docs-getting-started) — install a VBWD instance and enable plugins
